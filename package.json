@@ -1,0 +1,12 @@
+{
+  "name": "reversteem",
+  "version": "1.0.0",
+  "main": "reversteem.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "jest": "^29.0.3"
+  }
+}
