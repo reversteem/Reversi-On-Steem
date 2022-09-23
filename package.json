@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "reversteem.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
