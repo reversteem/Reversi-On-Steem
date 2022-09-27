@@ -1,6 +1,7 @@
 "use strict";
 
 const rs = require("reversteem");
+jest.setTimeout(80000);
 
 describe("Account tests", () => {
  test('Fetching test account should return the correct details.', async () => {
@@ -17,3 +18,13 @@ describe("Board tests", () => {
    expect(received).toBe(expected);
  });
 })
+
+describe('Google', () => {
+  beforeAll(async () => {
+    await page.goto('https://google.com', {timeout: 0});
+  });
+
+  it('should be titled "Google"', async () => {
+    await expect(page.title()).resolves.toMatch('Google');
+  });
+});

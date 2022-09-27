@@ -16,6 +16,7 @@ constant.blackCode = 'x';
 constant.emptyBox = ' □ ';
 constant.whiteDisc = ' ⚪';
 constant.blackDisc = ' ⚫';
+// '...........................ox......xo...........................'
 constant.postBoard = `---
 
 𝟷  □  □  □  □  □  □  □  □ 
