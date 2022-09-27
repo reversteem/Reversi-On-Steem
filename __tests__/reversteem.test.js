@@ -19,12 +19,12 @@ describe("Board tests", () => {
  });
 })
 
-//describe('Google', () => {
-//  beforeAll(async () => {
-//    await page.goto('https://google.com', {timeout: 0});
-//  });
-//
-//  it('should be titled "Google"', async () => {
-//    await expect(page.title()).resolves.toMatch('Google');
-//  });
-//});
+describe('Google', () => {
+  beforeAll(async () => {
+    await page.goto('https://google.com', {timeout: 0});
+  });
+
+  it('should be titled "Google"', async () => {
+    await expect(page.title()).resolves.toMatch('Google');
+  });
+});
