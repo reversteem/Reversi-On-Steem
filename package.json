@@ -7,6 +7,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "@vue/cli": "^5.0.8",
     "jest": "^29.0.3",
     "jest-puppeteer": "^6.1.1",
     "steem": "^0.7.11"
